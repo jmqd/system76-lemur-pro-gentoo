@@ -3,15 +3,15 @@ Gentoo on the System76 Lemur Pro (lemp9)
 Jordan McQueen <j@jm.dev>
 2021-04-30
 
+I have a fully functional install of Gentoo Linux on my System76 Lemur Pro
+(lemp9). This is a collection of configurations, kernel compilation files, and
+other artifacts that may be helpful to others compiling a linux distro from
+scratch onto their lemp9.
+
 .Caveats
 * I have an nvme4 drive. If your system differs, adjust accordingly.
-
-Summary
--------
-
-In this repo, I have tried to put any configurations specific to my laptop for
-compiling/installing gentoo linux. Of course, some of this includes settings
-unique to choices I made, e.g. drive partitions, formatting (btrfs), etc.
+* Some of these settings may be unique to choices I made, e.g. drive partitions,
+formatting (btrfs), etc. Proceed with diligence.
 
 The primary use case I see here for others is to `diff` my
 `kernel_compilation_config` with theirs, to see if they're missing any modules
