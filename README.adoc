@@ -1,0 +1,13 @@
+Gentoo on the System76 Lemur Pro (lemp9)
+========================================
+Jordan McQueen <j@jm.dev>
+2021-04-30
+
+.Caveats
+* I have an nvme4 drive. If your system differs, adjust accordingly.
+
+Summary
+-------
+
+In this repo, I have tried to put any configurations specific to my laptop for
+compiling/installing gentoo linux.
