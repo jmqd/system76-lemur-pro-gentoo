@@ -10,4 +10,9 @@ Summary
 -------
 
 In this repo, I have tried to put any configurations specific to my laptop for
-compiling/installing gentoo linux.
+compiling/installing gentoo linux. Of course, some of this includes settings
+unique to choices I made, e.g. drive partitions, formatting (btrfs), etc.
+
+The primary use case I see here for others is to `diff` my
+`kernel_compilation_config` with theirs, to see if they're missing any modules
+or drivers (e.g. `iwlwifi`).
